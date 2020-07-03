@@ -170,7 +170,7 @@ h6{
 	grid-gap: 1.5rem;
 	grid-auto-rows: minmax(150px, auto);
 }
-
+/*
 .image { 
 	opacity: 1;
 	display: block;
@@ -180,7 +180,7 @@ h6{
 	backface-visibility: hidden;
 	object-fit: cover;
 }
-
+*/
 .middle {
 	transition: .5s ease;
 	opacity: 0;
@@ -198,19 +198,6 @@ element.style
   flex-direction: column;
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 * {
@@ -233,12 +220,12 @@ body {
       z-index: -2;
 
   }
-
+/*
 i {
 font-size: 4rem;
 color: rgba(21, 159, 244, 0.94);
 padding: 20px;
-}
+}*/
 
 .card-header {
 margin-top: 4px;
@@ -269,8 +256,9 @@ color: rgba(11, 12, 12, 0.79);
   width: 400px; 
   display: block;
   margin: 0 auto;
-   border-radius: 0px; */
-  padding-bottom : 15px;
+  /* border-radius: 0px; */
+ padding-bottom : 15px;
+
 }
 .fa-redo-alt{
 color: rgb(247, 9, 9);
