@@ -80,15 +80,7 @@ h6{
     filter: grayscale(1);
     transition: background-size 0.3s ease; 
   }
- /* 
-  body {
-     text-align: center;
-    /* background: url(../images/back.jpg);
-     background-size: cover;
-     background-position: center;
-    
-  }*/
-
+ 
  
   i{
     
@@ -210,7 +202,7 @@ element.style
 body {
   text-align: center;
       margin-top: 100px;
-      overflow-y: hidden; 
+     
       height: 90vh;
       width: 100vw;
       background-image: url('https://source.unsplash.com/random');
@@ -278,3 +270,46 @@ display: block;
   margin: 0 auto;
 } 
 
+/* Contact form */
+// Vars 
+$rhythm: 25px;
+
+// Form component 
+.c-form {
+    display: block;
+    border: none;
+    margin: #{ $rhythm * 2 } auto;
+    max-width: 500px;
+    color: rgb(247, 9, 9);
+    
+    &__heading {
+        display: block;
+        width: 100%;
+        font-size: 2rem;
+        line-height: 1.2;
+        border-bottom: 1px solid #ccc;
+        padding: 0 0 5px 0;
+        margin: 0 0 10px 0;
+    }
+    
+    &__row {
+        & + & {
+            padding-top: $rhythm;
+        }
+        
+        // Make any field fill at least 2/3 
+        [name] {
+            min-width: percentage(2/3);
+        }
+    }
+  
+
+
+
+
+
+// Presentational styles
+body {
+    background: #f3f3f3;
+    font-family: sans-serif;
+}
