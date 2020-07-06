@@ -1,13 +1,14 @@
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif
+  font-size: 2.5rem;
+  color: rgb(197, 58, 155);
   }
   h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    font-size: 2rem;
+    color: rgb(197, 58, 155);
   }
   h3
   {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(197, 58, 155);
 
   }
@@ -190,7 +191,7 @@ element.style
   flex-direction: column;
 }
  
-
+/*random-quote-generator */
 
 * {
   font-family: "Rimouski";
@@ -205,7 +206,7 @@ body {
      
       height: 90vh;
       width: 100vw;
-      background-image: url('https://source.unsplash.com/random');
+     /* background-image: url('https://source.unsplash.com/random');*/
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
@@ -309,7 +310,21 @@ $rhythm: 25px;
 
 
 // Presentational styles
+/*
 body {
     background: #f3f3f3;
     font-family: sans-serif;
+}
+*/
+/* "Changing colour button" taked from class activity */
+button {
+  font-size: 20px;
+  margin: 1rem;
+  border-radius: 20px;
+}
+/* review how to center with flex below */
+.centre {
+display: flex;
+align-items: center;
+justify-content:center;
 }
