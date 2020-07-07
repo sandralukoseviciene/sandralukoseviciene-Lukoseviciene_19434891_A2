@@ -11,7 +11,7 @@ btn.onclick = function() {
   document.body.style.backgroundColor = rndCol;
 }
 
-//How about using this to make a dark/light mode for your portfolio site? Other ideas you could explore with this?
+
 
 /* "random-quote-generator" - taked from class activity -->*/
 function genQuote() {
